@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyDlBFVsmV8pao6Ax-bcR0dc5h4CusiNCsc')  
+genai.configure(api_key='AIzaSyDKcxALky8LiROaxb0RGMw8TLLOcujMRMY')  
 model = genai.GenerativeModel(model_name="gemini-pro")
 
 def prompt(subject, topic, duration):
